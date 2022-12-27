@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+{{ item.title }}
+{% endblock %}
+
+{% block body %}
+<div class="product-detail">
+    <h1> {{ item.title }}</h1>
+    <img src="{{ item.img }}" class="product-detail__img" alt="изображение товара">
+    <p>Цена - {{ item.price }} руб.</p>
+    <div class="product-detail__bnts">
+        <a href="" class="btn btn-lg btn-block btn-outline-primary"> Купить </a>
+        <a href="/product/{{ item.id }}/del" class="btn btn-lg btn-danger"> Удалить </a>
+    </div>
+</div>
+
+{% endblock %}

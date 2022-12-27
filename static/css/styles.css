@@ -1,0 +1,162 @@
+body {
+	display: flex;
+    flex-direction: column;
+	height: 100%;
+}
+
+html {
+	height: 100%;
+}
+
+.c1 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.c2 {
+	margin: 40px;
+    line-height: 20px;
+	text-align: center;
+}
+
+.c3 {
+	margin: 100px;
+	text-align: center;
+}
+
+.lefj {
+	font-size: 100px;
+	text-align: center;
+}
+.lefp {
+	padding: 10px;
+	text-align: center;
+}
+
+.form-contact label {
+	display: inline-block;
+	min-width: 80px;
+}
+.form-contact p {margin: 10px 0 10px 0;}
+.form-contact input[type=submit], textarea {
+	font-size: 16px;
+}
+
+.flash {padding:10px;}
+.flash.success{
+border: 2px solid #21DB56;
+background: #AEFFC5;
+}
+.flash.error {
+border: 5px solid #FF4343;
+background: #FF9C9C;
+}
+
+.container-footer {
+	margin-top: auto;
+}
+
+.products {
+	max-width: 1300px;
+	padding-left: 10px;
+	padding-right: 10px;
+	display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+	gap: 30px;
+	flex-wrap: wrap;
+	margin: 45px;
+	margin-bottom: 0;
+}
+
+.products__card {
+	border: 2px solid #5b6c84;
+	border-radius: 4px;
+	padding: 10px;
+	display: flex;
+    flex-direction: column;
+	min-height: 70px;
+	height: 100%;
+	max-height: 330px;
+}
+
+.products__card:hover {
+	box-shadow: 3px 4px 15px #8a8fff;
+}
+
+.products-card__title {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.products-card__btn {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	cursor: pointer;
+}
+
+.products-card__img {
+	width: 200px;
+	height: 200px;
+	margin: auto;
+}
+
+.product-detail__img {
+	width: 500px;
+	height: 500px;
+}
+.product-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product-detail__bnts {
+	display: flex;
+	gap: 20px;
+}
+
+.contacts {
+	margin-left: 45px;
+	margin-right: 45px;
+}
+
+.contacts__title {
+	margin-bottom: 40px;
+}
+
+.contacts__info {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contacts__header {
+	font-weight: 700;
+}
+
+.main__img {
+	max-width: 600px;
+	max-height: 600px;
+	object-fit: cover;
+	width: 100%;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__img {
+	margin-bottom: 20px;
+}
+
+.login {
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.login__title {
+	margin-bottom: 20px;
+}
